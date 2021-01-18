@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Homework</title>
+    
+</head>
+<body>
+    <form>
+        <h3>Sign up to the app</h3>
+        <fieldset>
+            <legend>Personal information: </legend>
+            <p>First name:</p>
+            <input type="text" placeholder="Mickey">
+            <p>Last name:</p>
+            <input type="text" placeholder="Mouse">
+            <p>Self-presentation:</p>
+            <textarea cols="30" rows="10" placeholder="The cat was playing in the garden."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Car info(the brand)</legend>
+            <select id="car">
+                <option value="Volvo" selected>Volvo</option>
+                <option value="Saab">Saab</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Audi">Audi</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose one:</legend>
+            <div>
+                <label for="male">
+                    <input type="radio" checked id="male" name="choose"> Male
+                </label> 
+            </div>
+            <div>
+                <label for="female">
+                    <input type="radio" id="female" name="choose"> Female 
+                </label>
+            </div>
+            <div>
+                <label for="other">
+                    <input type="radio" id="other" name="choose"> Other 
+                </label> 
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose many:</legend>
+            <div>
+                <label for="bike">
+                    <input type="checkbox" id="bike"> I have a bike
+                </label>
+            </div>
+            <div>
+                <label for="bike">
+                    <input type="checkbox" id="car"> I have a car
+                </label>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
