@@ -1,0 +1,32 @@
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: #bb3ccf;
+    text-decoration: none;
+}
+
+.nav-text {
+    font-size: 18px;
+    margin-right: 5px;  
+    text-transform: uppercase;
+    font-weight: 20px;
+}
+
+.nav-page {
+    border: 2px solid #e9ddeb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    transition: .3s all;
+}
+
+.nav-page:hover, .active {
+    background-color: #bb3ccf;
+    color: white;
+    border: 2px solid #bb3ccf;
+}
