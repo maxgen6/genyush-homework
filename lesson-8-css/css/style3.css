@@ -1,0 +1,21 @@
+table {
+    width: 1000px;
+    height: 200px;
+}
+
+td {
+    text-align: center;
+}
+
+tr > td:nth-child(odd) {
+    background-color: #f5deb3;
+}
+tr:nth-child(2n) > td:nth-child(2n) {
+    background-color: skyblue;
+}
+tr > td:first-child {
+    background-color: skyblue;
+}
+tr:first-child > td:first-child, tr:nth-child(3) > td:first-child, tr:nth-child(5) > td:first-child{
+    background-color: white;
+}
