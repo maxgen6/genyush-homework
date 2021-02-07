@@ -1,1 +1,61 @@
-/* Write your code here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 63px;
+}
+
+
+.first-customer {
+    padding-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.first-customer img {
+    width: 60%;
+}
+
+.first-customer__descr {
+    max-width: 350px;
+    position: absolute;
+    text-align: right;
+    left: 60%;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+
+.first-customer__descr h1 {
+    color: #d83f2d;
+    font-size: 26px;
+}
+
+.first-customer__descr span {
+    font-size: 11px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.first-customer__descr p {
+    font-size: 14px;
+}
+
+.second-customer {
+    display: inline-block;
+    position: relative;
+}
+
+.second-customer img {
+    display: block;
+    margin-left: auto;
+}
+
+.second-customer__descr {
+    max-width: 290px;
+    position: absolute;
+    text-align-last: left;
+    left: 10%;
+}
