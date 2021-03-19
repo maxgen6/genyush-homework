@@ -1,0 +1,48 @@
+
+:root {
+    --button-bg-color: #3bee24;
+    --button-text-color: #fff;
+    --button-hover-bg: #209c10;
+    --button-active-color: #19cf01;
+}
+
+.button {
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0;
+    max-width: 100%;
+    height: 2.5em;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 0.25em;
+    box-shadow:
+        0 0.25em 0.4em rgba(50, 50, 93, .11),
+        0 0.1em 0.25em rgba(0, 0, 0, .08);
+    
+    background: var(--button-bg-color);
+    color: var(--button-text-color);
+
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+    
+    transition: .2s all;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background: var(--button-hover-bg);
+    transform: scale(1.1);
+}
+
+.button:active {
+    background: var(--button-active-color);
+}
